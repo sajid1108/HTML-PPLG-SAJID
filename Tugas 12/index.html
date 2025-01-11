@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas 12</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+        .media-table td {
+            vertical-align: top;
+        }
+        .media {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Belajar HTML</h2>
+
+    <!-- Tabel pertama untuk informasi personal -->
+    <table>
+        <tr>
+            <th>Nama</th>
+            <th>Alamat</th>
+            <th>Hobi</th>
+        </tr>
+        <tr>
+            <td>Sajid Abdul Fatah</td>
+            <td>Kidul Mekkah</td>
+            <td>
+                <ul>
+                    <li>Menulis kode program</li>
+                    <li>Mendengarkan musik</li>
+                    <li>Menonton film & kartun</li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+
+    <p>Website: <a href="https://www.google.com">www.google.com</a></p>
+
+    <!-- Tabel kedua untuk media: gambar, audio, video -->
+    <table class="media-table">
+        <tr>
+            <td>Gambar</td>
+            <td>Audio</td>
+            <td>Video</td>
+        </tr>
+        <tr>
+            <td>
+                <img class="media" src="gambar.jpg" alt="Gambar dari Google Drive">
+            </td>
+            <td>
+                <audio src="sample.mp3" controls></audio>
+            </td>
+            <td>
+                <video class="media" controls>
+                    <source src="sample.mp4" type="video/mp4">
+                    Browser Anda tidak mendukung tag video.
+                </video>
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>
